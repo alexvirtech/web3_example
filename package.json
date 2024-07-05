@@ -1,0 +1,19 @@
+{
+  "name": "ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index",
+    "dev1": "node index1",
+    "ganache": "ganache --wallet.deterministic"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "web3": "^4.10.0"
+  }
+}

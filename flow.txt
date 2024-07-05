@@ -1,0 +1,22 @@
+npm init --yes
+
+//or with package.json
+npm install
+
+// https://www.npmjs.com/package/ganache
+npm install ganache --global
+
+// add to script in package.json
+"scripts": {
+    "ganache": "ganache --wallet.deterministic"
+  }
+
+// install web3
+// https://docs.web3js.org/guides/web3_providers_guide/#http-provider
+npm i web3@latest
+
+// run
+npm run ganache
+
+npm run dev (or "node index")     // for ganache
+npm run dev1 (or "node index1")   // for morethanwallet testnet
